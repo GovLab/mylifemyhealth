@@ -1,0 +1,14 @@
+{
+  "name": "kickswatch",
+  "version": "0.0.0",
+  "dependencies": {
+    "express": "*",
+    "ejs": "*",
+    "mongojs": "*",
+    "connect-mongo": "*"
+  },
+  "engines": {
+    "node": "*",
+    "npm": "*"
+  }
+}
