@@ -27,7 +27,8 @@ function do404(request, response, next){
 var db = require('mongojs').connect(app.get('secret'), app.get('collections'));
 
 app.get('/', function(request, response){
-  response.render('index', {demo: '^_^'});
+  response.render('index', {title: 'kickswatch',
+                            smile: '^_^'});
 });
 
 app.listen(app.get('port'), function(){
