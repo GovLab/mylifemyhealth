@@ -12,7 +12,16 @@
 
 <section class="container demo">
   <article class"row">
-    <h3><%= smile %></h3>
+    <h3>
+      <a href="http://omnipotent.net/jquery.sparkline/">
+        <span class="inlinesparkline">
+          10,9,8,6,0,0,3,6,10,6,3,0,0,10,10,10,10,0,0,3,6,10,6,3,0
+        </span>
+      </a>
+    </h3>
+    <h3>
+      <%= sentinfo %>
+    </h3>
   </article>
 </section>
 
@@ -39,6 +48,7 @@
 <script>
   afterReady = function() {
     // stuff goes here
+    $('.inlinesparkline').sparkline();
   };
 </script>
 

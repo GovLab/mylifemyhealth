@@ -28,7 +28,7 @@ var db = require('mongojs').connect(app.get('secret'), app.get('collections'));
 
 app.get('/', function(request, response){
   response.render('index', {title: 'kickswatch',
-                            smile: '^_^'});
+                            sentinfo: 'DATA'});
 });
 
 app.listen(app.get('port'), function(){
