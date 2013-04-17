@@ -14,6 +14,9 @@ Here are commands to get going. (Assumes you already have software.)
     heroku create #your_project
     heroku addons:add mongolab
     git push heroku master
+
+At this point it will look like: [kickswatch.herokuapp.com](http://kickswatch.herokuapp.com/)
+
     # more awesome
     # git commit
     git push heroku master
