@@ -22,8 +22,11 @@
     <h3>
       <%= sentinfo %>
     </h3>
+    <div><a href="http://d3js.org/" id="d3home">
+    </a></div>
   </article>
 </section>
+
 
   <div class="row">
     <div class="span6">
@@ -43,12 +46,16 @@
       </blockquote>
     </div>
   </div>
-
+</section>
 
 <script>
   afterReady = function() {
     // stuff goes here
     $('.inlinesparkline').sparkline();
+    d3.select('#d3home').selectAll("p")
+      .data(["d3"])
+      .enter().append("h3")
+        .text(function(d) {return "now with " + d});
   };
 </script>
 
