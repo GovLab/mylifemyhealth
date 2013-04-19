@@ -72,6 +72,30 @@ svg.append("text")
     .attr("y", 10)
     .text("now")
 
+svg.append("text")
+    .attr("x", 10)
+    .attr("y", 150)
+    .attr('opacity', 0.5)
+    .text("preventative")
+
+svg.append("text")
+    .attr("x", 10)
+    .attr("y", 114)
+    .attr('opacity', 0.5)
+    .text("interventions")
+
+svg.append("text")
+    .attr("x", 10)
+    .attr("y", 78)
+    .attr('opacity', 0.5)
+    .text("emergency")
+
+svg.append("text")
+    .attr("x", 10)
+    .attr("y", 42)
+    .attr('opacity', 0.5)
+    .text("hospitalization")
+
 svg.selectAll('rect.items')
   .data([{start: '2013-04-12',
           end: '2013-04-13',
