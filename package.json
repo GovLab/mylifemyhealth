@@ -1,11 +1,9 @@
 {
-  "name": "kickswatch",
-  "version": "0.0.0",
+  "name": "mylifemyhealth",
+  "version": "0.0.1",
   "dependencies": {
     "express": "*",
-    "ejs": "*",
-    "mongojs": "*",
-    "connect-mongo": "*"
+    "ejs": "*"
   },
   "engines": {
     "node": "0.10.4",
